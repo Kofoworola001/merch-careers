@@ -1,5 +1,5 @@
-import React from 'react';
-import img from '../../images/img.svg';
+
+import img from '../../assets/images/img.svg';
 import { FaArrowRight } from "react-icons/fa6";
 
 const Hero = () => {
@@ -9,14 +9,17 @@ const Hero = () => {
         
         {/* Left side: Large text */}
         <div className="w-full md:w-1/2 text-center md:text-left mb-8 md:mb-0 transition-opacity duration-1000 opacity-100">
-          <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-black">
-            Welcome to Merch Careers
+          <div>
+            <h1 className="text-5xl md:text-3xl lg:text-6xl font-bold text-black">
+            Welcome to
           </h1>
+          <span className='text-7xl font-bold text-yellow-600 '>Merch Careers</span>
+          </div>
           <p className="mt-4 text-lg md:text-lg text-black">
             your gateway to a thriving career.
           </p>
           <div className='flex flex-row'>
-            <button className="mt-8 bg-black text-white py-2 px-6 rounded hover:bg-yellow-200 transition-transform duration-500 ease-in-out transform hover:scale-105">
+            <button className="mt-8 bg-black text-white py-2 px-6 rounded-full hover:bg-yellow-600 transition-transform duration-500 ease-in-out transform hover:scale-105">
               Join our community
             </button>
 

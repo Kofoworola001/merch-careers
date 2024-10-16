@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FaStar } from 'react-icons/fa'; // Importing the star icon
 
 const Testimonial = () => {
@@ -14,7 +14,7 @@ const Testimonial = () => {
 
         {/* Testimonial Quote */}
         <p className="text-2xl font-semibold text-gray-800 mb-6">
-          "Merch Careers has been instrumental in my professional growth. The mentorship and guidance I received were invaluable."
+          Merch Careers has been instrumental in my professional growth. The mentorship and guidance I received were invaluable.
         </p>
 
         {/* User Information */}

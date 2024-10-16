@@ -34,8 +34,9 @@
 
 // export default Navbar;
 
-import React, { useState } from 'react';
-import { ChevronDownIcon } from '@heroicons/react/24/solid'; 
+
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { useState } from 'react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,9 +54,9 @@ const Navbar = () => {
             <a href="/programs" className="text-gray-600 hover:text-gray-800">Programs</a>
           </div>
           <div className="hidden md:flex items-center space-x-4">
-            <div className="flex items-center space-x-1">
+            <div className="flex items-center space-x-1 hover:text-lg">
               <a href="/join" className="text-gray-600 hover:text-gray-800">Join us</a>
-              <ChevronDownIcon className="w-4 h-4 text-gray-600" />
+              <FaLongArrowAltRight className="w-4 h-4 text-gray-600" />
             </div>
             <div className="flex items-center space-x-1">
               <a
@@ -64,7 +65,6 @@ const Navbar = () => {
               >
                 Contact us
               </a>
-              <ChevronDownIcon className="w-4 h-4 text-gray-600" />
             </div>
           </div>
           <div className="md:hidden">
