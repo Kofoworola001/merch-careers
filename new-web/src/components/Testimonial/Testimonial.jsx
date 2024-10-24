@@ -2,6 +2,7 @@
 import { FaStar } from 'react-icons/fa';
 import  img from '../../assets/images/img.svg';
 
+
 const Testimonial = () => {
   return (
     <section className="bg-blue-50 py-16">
